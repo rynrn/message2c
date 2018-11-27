@@ -1,0 +1,11 @@
+.general-input {
+	position: fixed;
+	bottom: 16px;
+	right: 16px;
+	width: 40%;
+	padding: 5px;
+	border: 1px solid blue;
+	box-shadow: inset 0 0 21px #545471;
+	text-align: right;
+	direction: rtl;
+}
