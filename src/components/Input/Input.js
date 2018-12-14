@@ -12,9 +12,13 @@ class Input extends Component {
     this.textInput.current.focus();
   }
   
+  componentDidMount() {
+	this.textInput.current.focus();
+  }
+  
   render() {
     return (
-		<input className="general-input" type="text"
+		<input className="form__field" type="text"
 			placeholder="הקלד את שמך"
 			onClick={this.focusTextInput}
 			ref={this.textInput} />

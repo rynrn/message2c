@@ -1,0 +1,30 @@
+.share-button {
+	position: absolute;
+	left: 0;
+	right: 0;
+	border-radius: 10px;
+	height: 60px;
+	border: 3px solid #fff;
+    padding: 15px;
+	margin: 0 auto;
+	font-size: 20px;
+	color: #fff;
+	width: 90%;
+	animation: pulse 1s linear infinite;
+}
+
+.share-button--top {
+	top: 10px;
+}
+
+.share-button--bottom {
+	bottom: 10px;
+}
+
+.share-button--facebook {
+    background-color: #0084ff;
+}
+
+.share-button--whatsapp {
+    background-color: #34af23;
+}

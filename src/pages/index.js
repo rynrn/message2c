@@ -1,3 +1,3 @@
-import Hanuka from './Hanuka';
+import Hanuka from './Hanuka/Hanuka';
 
 export { Hanuka };
