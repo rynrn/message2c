@@ -41,10 +41,10 @@ class ShareButton extends Component {
   }
   
   render() {
-	const { style, position } = this.props;
+	const { style, position, children } = this.props;
 	const cls = classNames('share-button', {[`share-button--${position}`]: !!position}, {[`share-button--${style}`]: !!style});
     return (
-		<button className={cls} onClick={this.onClick}>{this.props.children}</button>
+		<button className={cls} onClick={this.onClick}>{children}</button>
     );
   }
 }
