@@ -2,11 +2,24 @@ import React, { Component } from 'react';
 import './Name.css';
 
 class Name extends Component {
-  render() {
-	const params = new URLSearchParams(window.location.search);
+	constructor (props) {
+		super(props);
 
+		this.state = {
+			name: ''
+		};
+	}
+
+	componentWillMount() {
+		const params = new URLSearchParams(window.location.search);	
+		this.setState({
+			name: params.get('name')
+		});
+	}
+
+  render() {
     return (
-		<div className="blessing-name">😊{params.get('name')}😊</div>
+		<div className="blessing-name">😊{this.state.name}😊</div>
     );
   }
 }
