@@ -1,3 +1,18 @@
+.Shabbat .topImg {
+	position: absolute;
+	top: 95vw;
+    left: 0;
+    width: 50%;
+    height: 60px;
+	background-image: url('images/topBg.jpg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 1;
+    transform: translateX(-50%);
+	animation: tada 1s linear 0.4s infinite;
+}
+
 .Shabbat .title {
     text-align: center;
     font-size: 36px;

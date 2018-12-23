@@ -6,6 +6,7 @@ class Shabbat extends Component {
   render() {
     return (
 		<div className="Shabbat">
+			<div className="topImg"></div>
 			<h2 className="title">שבת שלום</h2>
 			<div className="title-holiday"></div>
 			<div className="img">
