@@ -1,10 +1,10 @@
 .Shabbat .blessing {
 	padding: 20px;
-    margin-top: 100px;
+    /* margin-top: 100px; */
 	direction: rtl;
 	text-align: center;
 	font-family: 'Varela Round', sans-serif;
-	font-size: 20px;
+	font-size: 16px;
 }
 .Shabbat .title-holiday {
 	position: absolute;
