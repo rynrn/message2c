@@ -2,7 +2,8 @@ import { map } from 'lodash';
 import React from "react";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import {
-	Hanuka, Shabbat
+	Hanuka,
+	Shabbat
 } from './pages';
 
 const Index = () => <h2>Home</h2>;
