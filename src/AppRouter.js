@@ -31,7 +31,7 @@ const AppRouter = () => (
       <Route path="/Hanuka/" component={Hanuka} />
 			<Route path="/Shabbat/" component={Shabbat} />
       <Route path="/users/" component={Users} />
-	  <footer className="footer">
+	  {/* <footer className="footer">
 		<nav>
 			{map(footerMenu, (section, i) => (
 				<ul key={i} className="footer-list-top">
@@ -42,7 +42,7 @@ const AppRouter = () => (
 				</ul>
 			))}
 		  </nav>
-	  </footer>
+	  </footer> */}
     </div>
   </Router>
 );
