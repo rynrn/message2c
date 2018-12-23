@@ -7,7 +7,6 @@ class Shabbat extends Component {
     return (
 		<div className="Shabbat">
 			<div className="topImg"></div>
-			<h2 className="title">~ שבת שלום ~</h2>
 			<div className="img">
 				<div className="star"></div>
 				<div className="candel candel-1"></div>
