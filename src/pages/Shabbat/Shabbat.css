@@ -26,11 +26,13 @@
 	width: 100%;
 	height: 100vw;
 	background-image: url('images/shabbat.jpg');
-	background-size: cover;
-	background-position: center;
+	background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
-.Shabbat .star {
+/*
+ .Shabbat .star {
 	position: absolute;
     top: 30vw;
     left: 64vw;
@@ -84,3 +86,5 @@
     top: 49vw;
     left: 29vw;
 }
+
+*/
