@@ -16,11 +16,10 @@ class Love extends Component {
 				<div className="candel candel-5"></div>
 			</div>
 			<div className="blessing">
-			<h2 className="subTitle">בוקר טוב כבר אמרנו :)</h2>
+			<h2 className="subTitle">~ LOVE LOVE LOVE ~</h2>
 			<p>כשאוהבים באמת, אפשר להראות זאת רק בצורה אחת - עם נשיקה גדולה ואוהבת.</p>
 			<p>זה לא משנה אם הנשיקה היא על הלחי, על השפתיים, או אפילו על גב היד, היא תמיד אומרת יותר מכל דבר אחר. </p>
 			<p>שלחתי לך את הנשיקות המקסימות האלה כדי להראות לך כמה אני אוהב אותך ולתת לך רגע מתוק של נחת.</p>
-			<h3 className="title-holiday">~ LOVE LOVE LOVE ~</h3>
 			<Name/>
 			</div>
 			<NameGenerate/>

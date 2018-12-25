@@ -29,20 +29,21 @@
     font-size: 16px;
     color: #b31127;
 }
-/* .Love .title-holiday {
+
+ .Love .subTtile {
 	position: absolute;
 	top: 95vw;
     left: 0;
     width: 50%;
     height: 60px;
-	background-image: url('images/title.jpg');
+	/* background-image: url('images/title.jpg');
     background-size: contain;
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
     z-index: 1;
     transform: translateX(-50%);
-	animation: tada 1s linear 0.4s infinite;
-} */
+	animation: jackInTheBox 1s linear 0.4s infinite;
+} 
 
 .Love .img {
 	position: relative;
