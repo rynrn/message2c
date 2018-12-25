@@ -25,11 +25,11 @@
 	position: relative;
 	width: 100%;
 	height: 100vw;
-	background-image: url('images/bg.jpg');
+	background-image: url('images/bg-main.jpg');
 	background-size: cover;
 	background-position: center;
 }
-
+/* 
 .Morning .star {
 	position: absolute;
     top: 30vw;
@@ -83,4 +83,4 @@
 .Morning .candel-5 {
     top: 49vw;
     left: 29vw;
-}
+} */
