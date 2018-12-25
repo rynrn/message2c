@@ -1,4 +1,4 @@
-.Love .topImg {
+/* .Love .topImg {
 	top: 95vw;
     left: 0;
     width: 98%;
@@ -11,7 +11,7 @@
     transform: translateX(-50%);
     animation: jackInTheBox 3s linear 0.4s infinite;
     margin: 0 auto;
-}
+} */
 
 .Love .title {
     text-align: center;
@@ -29,7 +29,7 @@
     font-size: 16px;
     color: #b31127;
 }
-.Love .title-holiday {
+/* .Love .title-holiday {
 	position: absolute;
 	top: 95vw;
     left: 0;
@@ -42,7 +42,7 @@
     z-index: 1;
     transform: translateX(-50%);
 	animation: tada 1s linear 0.4s infinite;
-}
+} */
 
 .Love .img {
 	position: relative;
