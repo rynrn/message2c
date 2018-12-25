@@ -4,7 +4,8 @@ import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import {
 	Hanuka,
 	Shabbat,
-	Morning
+	Morning,
+	Love
 } from './pages';
 
 const Index = () => <h2>Home</h2>;
@@ -13,7 +14,7 @@ const Users = () => <h2>Users</h2>;
 const footerMenu = [
 	{
 		title: "חגים",
-		items: [{url: "/Hanuka", content: "חנוכה"}, {url: "/Shabbat", content: "שבת "}, {url: "/Morning", content: "בוקר טוב "}]
+		items: [{url: "/Hanuka", content: "חנוכה"}, {url: "/Shabbat", content: "שבת "}, {url: "/Morning", content: "בוקר טוב "}, {url: "/Love", content: "Love "}]
 	},
 	{
 		title: "bla",
@@ -32,6 +33,7 @@ const AppRouter = () => (
       <Route path="/Hanuka/" component={Hanuka} />
 			<Route path="/Shabbat/" component={Shabbat} />
 			<Route path="/Morning/" component={Morning} />
+			<Route path="/Love/" component={Love} />
       <Route path="/users/" component={Users} />
 	  {/* <footer className="footer">
 		<nav>
