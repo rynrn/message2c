@@ -29,7 +29,7 @@
     font-size: 16px;
     color: #b31127;
 }
-.Morning .title-holiday {
+/* .Morning .title-holiday {
 	position: absolute;
 	top: 95vw;
     left: 0;
@@ -42,7 +42,7 @@
     z-index: 1;
     transform: translateX(-50%);
 	animation: tada 1s linear 0.4s infinite;
-}
+} */
 
 .Morning .img {
 	position: relative;
