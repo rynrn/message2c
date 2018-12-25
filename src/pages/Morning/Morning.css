@@ -30,7 +30,6 @@
     color: #b31127;
 }
     .Morning .title-holiday {
-	position: absolute;
 	top: 95vw;
     left: 0;
     width: 50%;
@@ -41,7 +40,8 @@
     background-repeat: no-repeat; */
     z-index: 1;
     transform: translateX(-50%);
-	animation: tada 1s linear 0.4s infinite;
+    animation: tada 1s linear 0.4s infinite;
+    margin: 0 auto;
 }
 
 .Morning .img {
