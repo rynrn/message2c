@@ -5,10 +5,15 @@ import { NameGenerate, Name } from '../../components';
 class HaimShely extends Component {
 	constructor(props) {
 		super(props);
+		let origin = '',pathname = '';
+		if (typeof(window) !== 'undefined') {
+			origin = window.location.origin;
+			pathname = window.location.pathname;
+		}
 		this.state = {
 			whatsappMessage: `חיים שלי, זה בשבילך
 			👇👇👇
-			${window.location.origin + window.location.pathname}/?n={NAME}}
+			${origin + pathname}/?n={NAME}}
 			`
 		};
 	}
