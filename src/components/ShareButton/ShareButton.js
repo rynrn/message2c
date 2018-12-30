@@ -11,7 +11,6 @@ class ShareButton extends Component {
   }
   
   onClick() {
-	debugger
 	if (this.props.type === 'whatsapp') {
 		window.location.href = `whatsapp://send?text=${this.getMessage(this.props.name)}`;
 	}
@@ -34,6 +33,9 @@ class ShareButton extends Component {
   }
   
   getMessage(name) {
+		if (this.props.whatsappMessage) {
+			return this.props.whatsappMessage.replace('{URL}', `message2c.me/?n=${encodeURIComponent(name)}`);
+		}
 	  return `${name}ה מיוחדת מ *לולי*
 			%0A
 			פתח את הקישור ותגלה מהי

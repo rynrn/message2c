@@ -14,17 +14,18 @@ class Name extends Component {
 		if (typeof(window) !== "undefined" && typeof(URLSearchParams) !== "undefined") {
 			const params = new URLSearchParams(window.location.search);	
 			this.setState({
-				name: params.get('name')
+				name: params.get('n')
 			});
 		}
 	}
 
   render() {
+		const emoji = this.props.emoji || '';
     return (
 			<div className="blessing-name">
-				<span role="img" aria-label="emoji">😊</span>
+				<span role="img" aria-label="emoji">{emoji}</span>
 				{this.state.name}
-				<span role="img" aria-label="emoji">😊</span>
+				<span role="img" aria-label="emoji">{emoji}</span>
 			</div>
     );
   }

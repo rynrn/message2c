@@ -41,8 +41,11 @@ class NameGenerate extends Component {
 					<SendButton type="primary" position="inside">שלח</SendButton>
 				</form>
 				<div className={shareButtonsCls}>
-					<ShareButton type="facebook" position="top" name={name}>שתפו בפייסבוק</ShareButton>
-					<ShareButton type="whatsapp" position="bottom" name={name}>שתפו בוואטסאפ</ShareButton>
+					<ShareButton 	type="facebook" position="top" name={name}>שתפו בפייסבוק</ShareButton>
+					<ShareButton 	whatsappMessage={this.props.whatsappMessage}
+												type="whatsapp"
+												position="bottom"
+												name={name}>שתפו בוואטסאפ</ShareButton>
 				</div>
 			</div>
 		</div>
