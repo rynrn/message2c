@@ -1,4 +1,8 @@
 .wrapper-actions {
+	height: 120px;
+}
+
+.inner-actions {
 	position: fixed;
 	top: 0;
 	bottom: 0;
@@ -6,7 +10,7 @@
 	right: 0;
 }
 
-.wrapper-actions .name-generate-form {
+.inner-actions .name-generate-form {
 	text-align: center;
 	position: absolute;
 	bottom: 25px;
@@ -15,14 +19,14 @@
 	display: block;
 }
 
-.wrapper-actions .name-generate-form--hidden {
+.inner-actions .name-generate-form--hidden {
 	display: none;
 }
 
-.wrapper-actions .share-buttons {
+.inner-actions .share-buttons {
 	display: none;
 }
 
-.wrapper-actions .share-buttons--show {
+.inner-actions .share-buttons--show {
 	display: block;
 }

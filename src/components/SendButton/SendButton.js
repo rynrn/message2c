@@ -13,8 +13,8 @@ class SendButton extends Component {
   }
   
   render() {
-	const { style, position } = this.props;
-	const cls = classNames('btn', {[`btn--${position}`]: !!position}, {[`btn--${style}`]: !!style});
+	const { type, position } = this.props;
+	const cls = classNames('btn', {[`btn--${position}`]: !!position}, {[`btn--${type}`]: !!type});
     return (
 		<button className={cls} onClick={this.onClick}>{this.props.children}</button>
     );

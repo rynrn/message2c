@@ -12,10 +12,10 @@ class ShareButton extends Component {
   
   onClick() {
 	debugger
-	if (this.props.style === 'whatsapp') {
+	if (this.props.type === 'whatsapp') {
 		window.location.href = `whatsapp://send?text=${this.getMessage(this.props.name)}`;
 	}
-	else if (this.props.style === 'facebbok') {
+	else if (this.props.type === 'facebbok') {
 		FB.ui(
 		  {
 			method: 'share',
@@ -41,8 +41,8 @@ class ShareButton extends Component {
   }
   
   render() {
-	const { style, position, children } = this.props;
-	const cls = classNames('share-button', {[`share-button--${position}`]: !!position}, {[`share-button--${style}`]: !!style});
+	const { type, position, children } = this.props;
+	const cls = classNames('share-button', {[`share-button--${position}`]: !!position}, {[`share-button--${type}`]: !!type});
     return (
 		<button className={cls} onClick={this.onClick}>{children}</button>
     );

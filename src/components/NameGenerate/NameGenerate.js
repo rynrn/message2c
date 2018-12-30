@@ -35,13 +35,15 @@ class NameGenerate extends Component {
 	const shareButtonsCls = classNames('share-buttons', {'share-buttons--show': !showForm});
     return (
 		<div className="wrapper-actions">
-			<form className={nameGenerateFormCls} onSubmit={this.onSubmit}>
-				<Input ref={this.textInput}/>
-				<SendButton style="primary" position="inside">שלח</SendButton>
-			</form>
-			<div className={shareButtonsCls}>
-				<ShareButton style="facebook" position="top" name={name}>שתפו בפייסבוק</ShareButton>
-				<ShareButton style="whatsapp" position="bottom" name={name}>שתפו בוואטסאפ</ShareButton>
+			<div className="inner-actions">
+				<form className={nameGenerateFormCls} onSubmit={this.onSubmit}>
+					<Input ref={this.textInput}/>
+					<SendButton type="primary" position="inside">שלח</SendButton>
+				</form>
+				<div className={shareButtonsCls}>
+					<ShareButton type="facebook" position="top" name={name}>שתפו בפייסבוק</ShareButton>
+					<ShareButton type="whatsapp" position="bottom" name={name}>שתפו בוואטסאפ</ShareButton>
+				</div>
 			</div>
 		</div>
     );

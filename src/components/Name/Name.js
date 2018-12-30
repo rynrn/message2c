@@ -11,15 +11,21 @@ class Name extends Component {
 	}
 
 	componentWillMount() {
-		const params = new URLSearchParams(window.location.search);	
-		this.setState({
-			name: params.get('name')
-		});
+		if (typeof(window) !== "undefined" && typeof(URLSearchParams) !== "undefined") {
+			const params = new URLSearchParams(window.location.search);	
+			this.setState({
+				name: params.get('name')
+			});
+		}
 	}
 
   render() {
     return (
-		<div className="blessing-name">😊{this.state.name}😊</div>
+			<div className="blessing-name">
+				<span role="img" aria-label="emoji">😊</span>
+				{this.state.name}
+				<span role="img" aria-label="emoji">😊</span>
+			</div>
     );
   }
 }
