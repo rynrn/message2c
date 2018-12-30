@@ -8,7 +8,7 @@ class HaimShely extends Component {
 		this.state = {
 			whatsappMessage: `חיים שלי, זה בשבילך
 			👇👇👇
-			{URL}
+			${window.location.origin + window.location.pathname}/?n={NAME}}
 			`
 		};
 	}

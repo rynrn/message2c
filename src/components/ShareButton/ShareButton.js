@@ -34,7 +34,7 @@ class ShareButton extends Component {
   
   getMessage(name) {
 		if (this.props.whatsappMessage) {
-			return this.props.whatsappMessage.replace('{URL}', `message2c.me/?n=${encodeURIComponent(name)}`);
+			return this.props.whatsappMessage.replace('{NAME}', encodeURIComponent(name));
 		}
 	  return `${name}ה מיוחדת מ *לולי*
 			%0A
