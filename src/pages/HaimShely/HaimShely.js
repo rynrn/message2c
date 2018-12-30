@@ -28,7 +28,7 @@ class HaimShely extends Component {
 				<h2 className="title">חיים שלי, בהמון אהבה השיר מוקדש לך!</h2>
 				<Name emoji="❤️"/>
 			</div>
-			<NameGenerate whatsappMessage={whatsappMessage}/>
+			<NameGenerate whatsappMessage={whatsappMessage} buttonStyle="secondary"/>
 		</div>
     );
   }
