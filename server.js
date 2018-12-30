@@ -47,7 +47,7 @@ function htmlTemplate(reactDom, helmetData) {
     const $ = cheerio.load(htmlFile);
     $('head').append(helmetData.title.toString());
     $('head').append(helmetData.meta.toString());
-    $('#root').text(reactDom);
+    $('#root').html(reactDom);
     return $.html();
 }
 
