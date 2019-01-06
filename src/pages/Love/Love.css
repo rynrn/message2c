@@ -1,17 +1,6 @@
-/* .Love .topImg {
-	top: 95vw;
-    left: 0;
-    width: 98%;
-    height: 225px;
-	background-image: url('images/bg2.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    z-index: 1;
-    transform: translateX(-50%);
-    animation: jackInTheBox 3s linear 0.4s infinite;
-    margin: 0 auto;
-} */
+.Love {
+    direction: rtl;
+}
 
 .Love .title {
     text-align: center;

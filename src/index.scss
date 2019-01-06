@@ -1,0 +1,48 @@
+@import 'variables.scss';
+@import url('animate.css');
+@import url('https://fonts.googleapis.com/css?family=Arimo|Heebo|Rubik|Varela+Round');
+/*
+font-family: 'Arimo', sans-serif;
+font-family: 'Rubik', sans-serif;
+font-family: 'Varela Round', sans-serif;
+font-family: 'Heebo', sans-serif;
+*/
+
+html, body {height: 100%;}
+body, ul, li {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+ul {
+  list-style: none
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  margin: 0 0 10px;
+}
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+
+  @media #{$medium} {
+    width: 750px;
+  }
+}

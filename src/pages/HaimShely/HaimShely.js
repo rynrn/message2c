@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './HaimShely.css';
+import './HaimShely.scss';
 import { NameGenerate, Name } from '../../components';
 
 class HaimShely extends Component {

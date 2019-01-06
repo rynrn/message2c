@@ -1,0 +1,21 @@
+@import '../../variables.scss';
+
+.header {
+    &__wrap-content {
+        padding: 65px 0;
+        background-color: #515570;
+        background-size: cover;
+        text-align: center;
+    }
+
+    &__title {
+        margin: 0;
+        padding: 5px 0;
+        color: #ffffff;
+        font-size: 45px;
+        font-weight: normal;
+        line-height: 50px;
+        text-transform: capitalize;
+    }
+    
+}

@@ -1,0 +1,20 @@
+.regular-page {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #757575;
+    background: #edf3f4;
+
+    &__wrap-content {
+        padding: 0 15px;
+    }
+
+    &__content {
+        padding: 50px;
+        border-radius: 6px;
+        background: #ffffff;
+
+        .heading {
+            font-weight: bold;
+        }
+    }
+}

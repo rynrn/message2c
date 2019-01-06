@@ -1,3 +1,7 @@
+.Morning {
+    direction: rtl;
+}
+
 .Morning .topImg {
 	top: 95vw;
     left: 0;

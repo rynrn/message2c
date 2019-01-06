@@ -1,0 +1,56 @@
+@import '../../variables.scss';
+
+.footer {
+    &__wrap-content {
+        padding: 80px 0 150px;
+        background: #2f2b35;
+        text-align: center;
+    }
+    
+    &__content {
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 15px;
+        padding-right: 15px;
+
+        @media #{$medium} {
+            width: 750px;
+        }
+        
+        @media #{$large} {
+            width: 970px;
+        }
+    }
+
+    &__menu-wrap {
+        display: inline-block;
+        text-align: center;
+    }
+
+    &__menu {
+        display: inline-block;
+        margin: 7.5px -15px;
+        padding-left: 0;
+        list-style: none;
+    }
+
+    &__menu-item {
+        float: left;
+        position: relative;
+        display: block;
+    }
+
+    &__menu-item-link {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        color: white;
+        font-size: 13px;
+        text-transform: capitalize;
+        line-height: 20px;
+        position: relative;
+        display: block;
+        padding: 10px 15px;
+        text-decoration: none;
+        transition: 0.3s ease;
+    }
+}
