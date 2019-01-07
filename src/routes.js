@@ -6,15 +6,14 @@ import {
     Love,
     HaimShely,
     Policy,
-    Disclaimer
+    Disclaimer,
+    Home
 } from './pages';
-
-const Index = () => <h2>Home</h2>;
 
 export default [
     {
         path: '/',
-        component: Index,
+        component: Home,
         exact: true,
     },
     {

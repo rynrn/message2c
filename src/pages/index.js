@@ -5,5 +5,6 @@ import Love from './Love/Love';
 import HaimShely from './HaimShely/HaimShely';
 import Policy from './Policy/Policy';
 import Disclaimer from './Disclaimer/Disclaimer';
+import Home from './Home/Home';
 
-export { Hanuka, Shabbat, Morning, Love, HaimShely, Policy, Disclaimer };
+export { Hanuka, Shabbat, Morning, Love, HaimShely, Policy, Disclaimer, Home };

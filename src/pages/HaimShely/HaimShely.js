@@ -13,7 +13,7 @@ class HaimShely extends Component {
 		this.state = {
 			whatsappMessage: `חיים שלי, זה בשבילך
 			👇👇👇
-			${origin + pathname}/?n={NAME}}
+			${origin + pathname}/?n={NAME}
 			`
 		};
 	}
@@ -30,7 +30,7 @@ class HaimShely extends Component {
 				allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
 				allowFullScreen></iframe>
 			<div>
-				<h2 className="title">חיים שלי, בהמון אהבה השיר מוקדש לך!</h2>
+				<h2 className="haim-shely__title">חיים שלי, בהמון אהבה השיר מוקדש לך!</h2>
 				<Name emoji="❤️"/>
 			</div>
 			<NameGenerate whatsappMessage={whatsappMessage} buttonStyle="secondary"/>
