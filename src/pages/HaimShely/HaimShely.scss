@@ -12,14 +12,12 @@
         text-shadow: 0px 0px 12px #9c4b4b;
     }
 
-    iframe {
+    &__iframe {
         width: 100%;
         height: 100vw;
         z-index: 2;
-    }
-    
-    @media #{$medium} {
-        iframe {
+        
+        @media #{$medium} {
             width: 768px;
             height: 768px;
             margin: 0 auto;
