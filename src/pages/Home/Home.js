@@ -6,17 +6,12 @@ import { SITE_NAME } from '../../constants/site';
 
 const pages = [
     {
-        src: 'https://i.ytimg.com/vi_webp/qEEzKfGa1oY/maxresdefault.webp',
-        title: 'הקדשת שיר - חיים שלי, של עדן בן זקן',
-        text: 'כנס להקדיש',
-        link: '/HaimShely'
+        src: '/images/cards/ValentinesDay-display.jpg',
+        title: 'ברכה לבן או בת זוג ליום האהבה',
+        text: 'כנס לברך',
+        link: '/ValentinesDay'
     },{
-        src: 'https://i.ytimg.com/vi_webp/qEEzKfGa1oY/maxresdefault.webp',
-        title: 'הקדשת שיר - חיים שלי, של עדן בן זקן',
-        text: 'כנס להקדיש',
-        link: '/HaimShely'
-    },{
-        src: 'https://i.ytimg.com/vi_webp/qEEzKfGa1oY/maxresdefault.webp',
+        src: '/images/cards/HaimShely-display.jpg',
         title: 'הקדשת שיר - חיים שלי, של עדן בן זקן',
         text: 'כנס להקדיש',
         link: '/HaimShely'

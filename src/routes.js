@@ -1,5 +1,6 @@
 import React from 'react';
 import {
+    ValentinesDay,
     Hanuka,
     Shabbat,
     Morning,
@@ -49,6 +50,11 @@ export default [
     {
         path: '/HaimShely',
         component: HaimShely,
+        exact: true,
+    },
+    {
+        path: '/ValentinesDay',
+        component: ValentinesDay,
         exact: true,
     }
 ];
