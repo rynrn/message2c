@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import classNames from 'classnames';
 import './ShareButton.css';
-import FB from 'fb';
 import { event } from '../../services/analytics';
 
 class ShareButton extends Component {
@@ -12,37 +11,34 @@ class ShareButton extends Component {
   }
   
   onClick() {
-	if (this.props.type === 'whatsapp') {
-		event('share', 'engagement', 'method', 'whatsapp');
-		window.location.href = `whatsapp://send?text=${this.getMessage(this.props.name)}`;
-	}
-	else if (this.props.type === 'facebbok') {
-		event('share', 'engagement', 'method', 'facebbok');
-		FB.ui(
-		  {
-			method: 'share',
-			href: `${window.location.origin}?name=${this.props.name}`,
-		  },
-		  // callback
-		  function(response) {
-			if (response && !response.error_message) {
-			  alert('Posting completed.');
-			} else {
-			  alert('Error while posting.');
-			}
-		  }
-		);
-	}
+		if (this.props.type === 'whatsapp') {
+			event('share', 'engagement', 'method', 'whatsapp');
+			window.location.href = `whatsapp://send?text=${this.getMessage(this.props.name)}`;
+		}
+		else if (this.props.type === 'facebbok') {
+			event('share', 'engagement', 'method', 'facebbok');
+			window.FB.ui({ method: 'share', href: `${window.location.origin + window.location.pathname}?n=${this.props.name}` },
+				function(response) {
+					if (response && !response.error_message) {
+						alert('Posting completed.');
+					} else {
+						alert('Error while posting.');
+					}
+				}
+			);
+		}
   }
   
   getMessage(name) {
-		if (this.props.whatsappMessage) {
-			return this.props.whatsappMessage.replace('{NAME}', encodeURIComponent(name));
+		let origin = '',pathname = '';
+		if (typeof(window) !== 'undefined') {
+			origin = window.location.origin;
+			pathname = window.location.pathname;
 		}
-	  return `${name}ה מיוחדת מ *לולי*
-			%0A
-			פתח את הקישור ותגלה מהי
-			👇👇👇%0Amessage4u.co/?n=%D7%9C%D7%95%D7%9C%D7%99`;
+		return `${this.props.whatsappMessage}
+			👇👇👇
+			${origin + pathname}/?n=${encodeURIComponent(name)}
+			`
   }
   
   render() {

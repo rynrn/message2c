@@ -3,23 +3,7 @@ import './ValentinesDay.scss';
 import { NameGenerate, Name } from '../../components';
 
 class ValentinesDay extends Component {
-	constructor(props) {
-		super(props);
-		let origin = '',pathname = '';
-		if (typeof(window) !== 'undefined') {
-			origin = window.location.origin;
-			pathname = window.location.pathname;
-		}
-		this.state = {
-			whatsappMessage: `מוקדש במיוחד בשבילך
-			👇👇👇
-			${origin + pathname}/?n={NAME}
-			`
-		};
-	}
-
   render() {
-		const { whatsappMessage } = this.state;
     return (
 		<div className="valentines-day">
 			<div className="valentines-day__image">
@@ -45,7 +29,7 @@ class ValentinesDay extends Component {
 					<div className="valentines-day__img2"></div>
 				</div>
 			</div>
-			<NameGenerate whatsappMessage={whatsappMessage} buttonStyle="CP2"/>
+			<NameGenerate whatsappMessage="מוקדש במיוחד בשבילך" buttonStyle="CP2"/>
 		</div>
     );
   }

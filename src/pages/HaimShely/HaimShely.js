@@ -3,23 +3,7 @@ import './HaimShely.scss';
 import { NameGenerate, Name } from '../../components';
 
 class HaimShely extends Component {
-	constructor(props) {
-		super(props);
-		let origin = '',pathname = '';
-		if (typeof(window) !== 'undefined') {
-			origin = window.location.origin;
-			pathname = window.location.pathname;
-		}
-		this.state = {
-			whatsappMessage: `מוקדש במיוחד בשבילך
-			👇👇👇
-			${origin + pathname}/?n={NAME}
-			`
-		};
-	}
-
   render() {
-		const { whatsappMessage } = this.state;
     return (
 		<div className="haim-shely">
 			<iframe
@@ -34,7 +18,7 @@ class HaimShely extends Component {
 				<h2 className="haim-shely__title">חיים שלי, בהמון אהבה השיר מוקדש לך!</h2>
 				<Name emoji="❤️"/>
 			</div>
-			<NameGenerate whatsappMessage={whatsappMessage} buttonStyle="CP2"/>
+			<NameGenerate whatsappMessage="מוקדש במיוחד בשבילך" buttonStyle="CP2"/>
 		</div>
     );
   }

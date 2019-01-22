@@ -3,22 +3,7 @@ import './Shabbat.scss';
 import { NameGenerate, Name } from '../../components';
 
 class Shabbat extends Component {
-	constructor(props) {
-		super(props);
-		let origin = '',pathname = '';
-		if (typeof(window) !== 'undefined') {
-			origin = window.location.origin;
-			pathname = window.location.pathname;
-		}
-		this.state = {
-			whatsappMessage: `כנס, מקדיש לך ברכת שבת שלום
-			👇👇👇
-			${origin + pathname}/?n={NAME}
-			`
-		};
-	}
   render() {
-		const { whatsappMessage } = this.state;
     return (
 		<div className="shabbat">
 			<h1 className="shabbat__title">שבת שלום</h1>
@@ -42,7 +27,7 @@ class Shabbat extends Component {
 					<div className="shabbat__img4"></div>
 				</div>
 			</div>
-			<NameGenerate whatsappMessage={whatsappMessage} buttonStyle="CP3"/>
+			<NameGenerate whatsappMessage="כנס, מקדיש לך ברכת שבת שלום" buttonStyle="CP3"/>
 		</div>
     );
   }
