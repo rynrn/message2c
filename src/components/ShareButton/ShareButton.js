@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import classNames from 'classnames';
 import './ShareButton.css';
 import FB from 'fb';
+import { event } from '../../services/analytics';
 
 class ShareButton extends Component {
   constructor(props) {
@@ -12,9 +13,11 @@ class ShareButton extends Component {
   
   onClick() {
 	if (this.props.type === 'whatsapp') {
+		event('share', 'engagement', 'method', 'whatsapp');
 		window.location.href = `whatsapp://send?text=${this.getMessage(this.props.name)}`;
 	}
 	else if (this.props.type === 'facebbok') {
+		event('share', 'engagement', 'method', 'facebbok');
 		FB.ui(
 		  {
 			method: 'share',

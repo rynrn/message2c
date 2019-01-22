@@ -3,6 +3,7 @@ import classNames from 'classnames';
 import { isEmpty, trim } from 'lodash';
 import { Input, SendButton, ShareButton } from '../';
 import './NameGenerate.css';
+import { event } from '../../services/analytics';
 
 class NameGenerate extends Component {
   constructor(props) {
@@ -22,6 +23,7 @@ class NameGenerate extends Component {
 		alert('הקלד שם');
 	}
 	else {
+		event('enter_name', 'engagement', 'method', 'button_click');
 		this.setState({
 			showForm: false,
 			name
