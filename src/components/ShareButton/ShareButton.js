@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import classNames from 'classnames';
 import './ShareButton.css';
+import { FACEBOOK, WHATSAPP } from '../../constants/app';
 import { event } from '../../services/analytics';
 
 class ShareButton extends Component {
@@ -11,12 +12,12 @@ class ShareButton extends Component {
   }
   
   onClick() {
-		if (this.props.type === 'whatsapp') {
-			event('share', 'engagement', 'method', 'whatsapp');
+		if (this.props.type === WHATSAPP) {
+			event('share', 'engagement', 'method', WHATSAPP);
 			window.location.href = `whatsapp://send?text=${this.getMessage(this.props.name)}`;
 		}
-		else if (this.props.type === 'facebbok') {
-			event('share', 'engagement', 'method', 'facebbok');
+		else if (this.props.type === FACEBOOK) {
+			event('share', 'engagement', 'method', FACEBOOK);
 			window.FB.ui({ method: 'share', href: `${window.location.origin + window.location.pathname}?n=${this.props.name}` },
 				function(response) {
 					if (response && !response.error_message) {

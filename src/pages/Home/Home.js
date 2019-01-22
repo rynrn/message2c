@@ -2,7 +2,7 @@ import React from 'react';
 import { Helmet } from 'react-helmet';
 import '../RegularPage.scss';
 import { Header, Card } from '../../components';
-import { SITE_NAME } from '../../constants/site';
+import { SITE_NAME } from '../../constants/app';
 
 const pages = [
     {
