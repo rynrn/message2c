@@ -11,7 +11,7 @@ class ValentinesDay extends Component {
 			pathname = window.location.pathname;
 		}
 		this.state = {
-			whatsappMessage: `חיים שלי, זה בשבילך
+			whatsappMessage: `מוקדש במיוחד בשבילך
 			👇👇👇
 			${origin + pathname}/?n={NAME}
 			`
@@ -27,14 +27,13 @@ class ValentinesDay extends Component {
 			</div>
 			<div>
 				<div className="valentines-day__wrap-images">
-					<div className="valentines-day__rh1"></div>
-					<div className="valentines-day__rh2"></div>
+					<div className="valentines-day__img1"></div>
+					<div className="valentines-day__img2"></div>
 				</div>
+
+				<h1 className="valentines-day__title">אהבה שלי</h1>
 				<p className="valentines-day__text">
-					אהבה שלי,
-					<br/>
-					<br/>
-					זה נכון שאנחנו לא צריכים תאריך כדי לציין את אהבתנו, אבל ביום האהבה הזה אני רוצה להזכיר לך, כמה האהבה הזו מיוחדת בשבילי, כמה אהבה יש לי אליך.
+					זה נכון שאנחנו לא צריכים תאריך כדי לציין את האהבה בינינו, אבל ביום האהבה הזה אני רוצה להזכיר לך, כמה האהבה הזו מיוחדת בשבילי, את כל האהבה שיש לי אליך.
 					מהיום הראשון שהכרנו ידעתי שזו אהבה כמו באגדות. אהבת אמת, אהבה טהורה.
 					<br/>
 					<br/>
@@ -42,11 +41,11 @@ class ValentinesDay extends Component {
 				</p>
 				<Name emoji="❤️"/>
 				<div className="valentines-day__wrap-images">
-					<div className="valentines-day__rh1"></div>
-					<div className="valentines-day__rh2"></div>
+					<div className="valentines-day__img1"></div>
+					<div className="valentines-day__img2"></div>
 				</div>
 			</div>
-			<NameGenerate whatsappMessage={whatsappMessage} buttonStyle="secondary"/>
+			<NameGenerate whatsappMessage={whatsappMessage} buttonStyle="CP2"/>
 		</div>
     );
   }

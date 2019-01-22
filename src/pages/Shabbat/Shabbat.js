@@ -11,7 +11,7 @@ class Shabbat extends Component {
 			pathname = window.location.pathname;
 		}
 		this.state = {
-			whatsappMessage: `חיים שלי, זה בשבילך
+			whatsappMessage: `כנס, מקדיש לך ברכת שבת שלום
 			👇👇👇
 			${origin + pathname}/?n={NAME}
 			`
@@ -25,8 +25,8 @@ class Shabbat extends Component {
 			<div className="shabbat__image"></div>
 			<div>
 				<div className="shabbat__wrap-images">
-					<div className="shabbat__rh1"></div>
-					<div className="shabbat__rh2"></div>
+					<div className="shabbat__img1"></div>
+					<div className="shabbat__img2"></div>
 				</div>
 				<h2 className="shabbat__subtitle">פרשת השבוע</h2>
 				<p className="shabbat__text">
@@ -38,11 +38,11 @@ class Shabbat extends Component {
 				</p>
 				<Name emoji="🙏"/>
 				<div className="shabbat__wrap-images">
-					<div className="shabbat__rh1"></div>
-					<div className="shabbat__rh2"></div>
+					<div className="shabbat__img3"></div>
+					<div className="shabbat__img4"></div>
 				</div>
 			</div>
-			<NameGenerate whatsappMessage={whatsappMessage} buttonStyle="secondary"/>
+			<NameGenerate whatsappMessage={whatsappMessage} buttonStyle="CP3"/>
 		</div>
     );
   }

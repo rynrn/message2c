@@ -11,7 +11,7 @@ class HaimShely extends Component {
 			pathname = window.location.pathname;
 		}
 		this.state = {
-			whatsappMessage: `חיים שלי, זה בשבילך
+			whatsappMessage: `מוקדש במיוחד בשבילך
 			👇👇👇
 			${origin + pathname}/?n={NAME}
 			`
@@ -23,6 +23,7 @@ class HaimShely extends Component {
     return (
 		<div className="haim-shely">
 			<iframe
+				className="haim-shely__iframe"
 				title="youtube"
 				width="560" height="315"
 				src="https://www.youtube.com/embed/qEEzKfGa1oY"
@@ -33,7 +34,7 @@ class HaimShely extends Component {
 				<h2 className="haim-shely__title">חיים שלי, בהמון אהבה השיר מוקדש לך!</h2>
 				<Name emoji="❤️"/>
 			</div>
-			<NameGenerate whatsappMessage={whatsappMessage} buttonStyle="secondary"/>
+			<NameGenerate whatsappMessage={whatsappMessage} buttonStyle="CP2"/>
 		</div>
     );
   }

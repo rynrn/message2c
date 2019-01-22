@@ -11,6 +11,12 @@
         background-image: url('images/bg.jpg');
         background-size: cover;
         background-position: center;
+
+        @include xl() {
+            width: 500px;
+            height: 500px;
+            margin: 0 auto;
+        }
     }
 
     &__image-animation {
@@ -25,8 +31,18 @@
         animation: zoomIn 2s ease-out 3s infinite;
     }
 
+    &__title {
+        text-align: center;
+        color: #ff0000;
+    }
+
     &__text {
         padding: 20px;
+
+        @include xl() {
+            width: 500px;
+            margin: 0 auto;
+        }
     }
 
     &__wrap-images {
@@ -37,7 +53,7 @@
         margin: 0 auto;
     }
 
-    &__rh1 {
+    &__img1 {
         position: absolute;
         background-image: url('images/2.png');
         top: 50%;
@@ -47,7 +63,7 @@
         animation: tada 2s ease-out 0s infinite;
     }
 
-    &__rh2 {
+    &__img2 {
         position: absolute;
         background-image: url('images/2.png');
         top: 50%;
@@ -56,18 +72,5 @@
         height: 80px;
         background-position-x: 65px;
         animation: tada 2s ease-out 0s infinite;
-    }
-
-    &__iframe {
-        width: 100%;
-        height: 100vw;
-        z-index: 2;
-        
-        @media #{$medium} {
-            width: 768px;
-            height: 768px;
-            margin: 0 auto;
-            display: block;
-        }
     }
 }

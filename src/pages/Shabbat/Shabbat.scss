@@ -1,3 +1,17 @@
+@import '../../variables.scss';
+
+@mixin image($img, $top, $side, $width, $height) {
+    position: absolute;
+    background-image: url('images/#{$img}.png');
+    top: $top;
+    #{$side}: 0;
+    width: $width;
+    height: $height;
+    animation: tada 2s ease-out 0s infinite;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .shabbat {
     direction: rtl;
     font-family: 'Varela Round';
@@ -15,6 +29,11 @@
     &__text {
         text-align: center;
         padding: 0 20px;
+
+        @include xl() {
+            width: 500px;
+            margin: 0 auto;
+        }
     }
 
     &__image {
@@ -24,5 +43,35 @@
         background-image: url('images/bg.jpg');
         background-size: cover;
         background-position: center;
+
+        @include xl() {
+            width: 500px;
+            height: 333px;
+            margin: 0 auto;
+        }
+    }
+
+    &__wrap-images {
+        position: relative;
+        width: 50%;
+        height: 80px;
+        padding: 20px;
+        margin: 0 auto;
+    }
+
+    &__img1 {
+        @include image('img1', 50%, 'right', 70px, 80px);
+    }
+
+    &__img2 {
+        @include image('img2', 50%, 'left', 62px, 80px);
+    }
+
+    &__img3 {
+        @include image('img6', 50%, 'right', 62px, 80px);
+    }
+
+    &__img4 {
+        @include image('img4', 50%, 'left', 62px, 80px);
     }
 }

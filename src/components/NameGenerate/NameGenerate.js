@@ -34,7 +34,7 @@ class NameGenerate extends Component {
 	const { whatsappMessage, buttonStyle } = this.props;
 	const nameGenerateFormCls = classNames('name-generate-form', {'name-generate-form--hidden': !showForm});
 	const shareButtonsCls = classNames('share-buttons', {'share-buttons--show': !showForm});
-	const btnStyle = buttonStyle || 'primary';
+	const btnStyle = buttonStyle || 'CP1';
     return (
 		<div className="wrapper-actions">
 			<div className="inner-actions">
