@@ -12,10 +12,6 @@ class Input extends Component {
     this.textInput.current.focus();
   }
   
-  componentDidMount() {
-	this.textInput.current.focus();
-  }
-  
   render() {
     return (
 		<input className="form__field" type="text"
