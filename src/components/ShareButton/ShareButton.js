@@ -21,9 +21,9 @@ class ShareButton extends Component {
 			window.FB.ui({ method: 'share', href: `${window.location.origin + window.location.pathname}?n=${this.props.name}` },
 				function(response) {
 					if (response && !response.error_message) {
-						alert('Posting completed.');
+						event('share', 'facebook', 'completed', 'completed');
 					} else {
-						alert('Error while posting.');
+						event('share', 'facebook', 'error', 'error');
 					}
 				}
 			);
