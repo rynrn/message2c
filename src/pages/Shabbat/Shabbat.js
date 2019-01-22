@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Helmet } from 'react-helmet';
 import './Shabbat.scss';
 import { NameGenerate, Name } from '../../components';
 
@@ -6,6 +7,12 @@ class Shabbat extends Component {
   render() {
     return (
 		<div className="shabbat">
+			<Helmet>
+				<title>שבת שלום | הקדשת ברכת השבת</title>
+				<meta property="og:title" content="שבת שלום | הקדשת ברכת השבת" />
+				<meta property="og:image" content="/images/cards/Shabbat-display.jpg" />
+				<meta name="description" content="הקדשת ברכת השבת" />
+			</Helmet>
 			<h1 className="shabbat__title">שבת שלום</h1>
 			<div className="shabbat__image"></div>
 			<div>

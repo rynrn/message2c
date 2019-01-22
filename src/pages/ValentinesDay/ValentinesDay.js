@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Helmet } from 'react-helmet';
 import './ValentinesDay.scss';
 import { NameGenerate, Name } from '../../components';
 
@@ -6,6 +7,12 @@ class ValentinesDay extends Component {
   render() {
     return (
 		<div className="valentines-day">
+			<Helmet>
+				<title>יום אהבה שמח | הקדשת ברכת אהבה</title>
+				<meta property="og:title" content="יום אהבה שמח | הקדשת ברכת אהבה" />
+				<meta property="og:image" content="/images/cards/ValentinesDay-display.jpg" />
+				<meta name="description" content="הקדשת ברכת אהבה" />
+			</Helmet>
 			<div className="valentines-day__image">
 				<div className="valentines-day__image-animation"></div>
 			</div>
