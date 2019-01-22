@@ -5,16 +5,8 @@
     background: #edf3f4;
 
     &__wrap-content {
+        direction: rtl;
         padding: 0 15px;
-    }
-
-    &__content {
-        padding: 50px;
-        border-radius: 6px;
-        background: #ffffff;
-
-        .heading {
-            font-weight: bold;
-        }
+        text-align: center;
     }
 }

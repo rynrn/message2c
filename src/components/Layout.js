@@ -4,7 +4,7 @@ import routes from "../routes";
 import { Footer } from "./";
 
 const footerPages = [
-    { text: 'Home', href: '/' },
+    { text: 'לעוד הקדשות', href: '/' },
     { text: 'Policy', href: '/Policy' },
     { text: 'Disclaimer', href: '/Disclaimer' }
 ];

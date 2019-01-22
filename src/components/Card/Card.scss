@@ -29,6 +29,13 @@
         width: 100%;
         height: auto;
         display: block;
+        height: 27vw;
+        background-size: cover;
+        background-position: center;
+
+        @media #{$medium-2} {
+            height: 50vw;
+        }
     }
 
     &__title {

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Footer.scss';
 
 const Footer = (props) => (
@@ -9,7 +10,7 @@ const Footer = (props) => (
                     <ul className="footer__menu">
                         {props.pages.map((page, i) => (
                             <li key={i} className="footer__menu-item">
-                                <a href={page.href} className="footer__menu-item-link">{page.text}</a>
+                                <Link to={page.href} className="footer__menu-item-link">{page.text}</Link>
                             </li>
                         ))}
                     </ul>

@@ -1,0 +1,28 @@
+.shabbat {
+    direction: rtl;
+    font-family: 'Varela Round';
+
+    &__title {
+        text-align: center;
+        color: #08cdb9;
+    }
+
+    &__subtitle {
+        text-align: center;
+        color: #08cdb9;
+    }
+
+    &__text {
+        text-align: center;
+        padding: 0 20px;
+    }
+
+    &__image {
+        position: relative;
+        width: 100%;
+        height: 100vw;
+        background-image: url('images/bg.jpg');
+        background-size: cover;
+        background-position: center;
+    }
+}
