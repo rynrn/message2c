@@ -20,6 +20,12 @@ const pages = [
         title: 'הקדשת שבת שלום עם פרשת השבוע',
         text: 'כנס להקדיש',
         link: '/Shabbat'
+    },
+    {
+        src: '/images/cards/BirthDay-display.jpg',
+        title: 'ברכות ואיחולים ליום הולדת',
+        text: 'כנס להקדיש',
+        link: '/BirthDay'
     }
 ];
 
