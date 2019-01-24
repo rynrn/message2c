@@ -1,4 +1,5 @@
 import {
+    BirthDay,
     ValentinesDay,
     Hanuka,
     Shabbat,
@@ -54,6 +55,11 @@ export default [
     {
         path: '/ValentinesDay',
         component: ValentinesDay,
+        exact: true,
+    },
+    {
+        path: '/BirthDay',
+        component: BirthDay,
         exact: true,
     }
 ];
