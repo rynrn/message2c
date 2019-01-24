@@ -9,9 +9,9 @@ class BirthDay extends Component {
 		<div className="birth-day">
 			<Helmet>
 				<title>יום הולדת שמח | הקדשת ברכת יום הולדת</title>
-				<meta property="og:title" content="יום אהבה שמח | הקדשת ברכת אהבה" />
+				<meta property="og:title" content="יום הולדת שמח | הקדשת ברכת יום הולדת" />
 				<meta property="og:image" content="/images/cards/birthDay-display.jpg" />
-				<meta name="description" content="הקדשת ברכת אהבה" />
+				<meta name="description" content="הקדשת ברכת יום הולדת" />
 			</Helmet>
 			<div className="birth-day__image">
 				<div className="birth-day__image-animation"></div>
