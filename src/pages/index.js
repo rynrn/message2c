@@ -7,8 +7,10 @@ import Policy from './Policy/Policy';
 import Disclaimer from './Disclaimer/Disclaimer';
 import Home from './Home/Home';
 import ValentinesDay from './ValentinesDay/ValentinesDay';
+import BirthDay from './BirthDay/BirthDay';
 
 export {
+    BirthDay,
     ValentinesDay,
     Hanuka,
     Shabbat,

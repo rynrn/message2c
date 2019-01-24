@@ -8,7 +8,7 @@ class BirthDay extends Component {
     return (
 		<div className="birth-day">
 			<Helmet>
-				<title>יום אהבה שמח | הקדשת ברכת אהבה</title>
+				<title>יום הולדת שמח | הקדשת ברכת יום הולדת</title>
 				<meta property="og:title" content="יום אהבה שמח | הקדשת ברכת אהבה" />
 				<meta property="og:image" content="/images/cards/birthDay-display.jpg" />
 				<meta name="description" content="הקדשת ברכת אהבה" />
@@ -22,21 +22,27 @@ class BirthDay extends Component {
 					<div className="birth-day__img2"></div>
 				</div>
 
-				<h1 className="birth-day__title">אהבה שלי</h1>
+				<h1 className="birth-day__title">יום הולדת שמח</h1>
 				<p className="birth-day__text">
-					זה נכון שאנחנו לא צריכים תאריך כדי לציין את האהבה בינינו, אבל ביום האהבה הזה אני רוצה להזכיר לך, כמה האהבה הזו מיוחדת בשבילי, את כל האהבה שיש לי אליך.
-					מהיום הראשון שהכרנו ידעתי שזו אהבה כמו באגדות. אהבת אמת, אהבה טהורה.
+				יום הולדת הגיע, זמן לברכה
+				זמן לחבק חידושים בשמחה
+				לסמוך שדברים יזרמו בבטחה
+				שהטוב יפלס דרכו הנוחה
+				יום הולדת הגיע, ואיתו עוד שנה
+				שנה מלאה, עשירה, מהנה
+				יום הולדת הגיע, זמן להתחלה משנה
+				והמשך דרך טובה שכולה מתנה
 					<br/>
 					<br/>
-					יום אהבה שמח! שנחגוג יחד עד 120!
+					שנחגוג יחד עד 120!
 				</p>
-				<Name emoji="❤️"/>
+				<Name emoji="🎊🎉"/>
 				<div className="birth-day__wrap-images">
 					<div className="birth-day__img1"></div>
 					<div className="birth-day__img2"></div>
 				</div>
 			</div>
-			<NameGenerate whatsappMessage="מוקדש במיוחד בשבילך" buttonStyle="CP2"/>
+			<NameGenerate whatsappMessage="מוקדש במיוחד בשבילך" buttonStyle="CP4"/>
 		</div>
     );
   }
