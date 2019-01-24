@@ -77,4 +77,48 @@
         background-position-x: 65px;
         animation: tada 2s ease-out 0s infinite;
     }
+
+    &__img3 {
+        position: absolute;
+        background-image: url('images/pink_balloon.png');
+        background-repeat: no-repeat;
+        top: 20%;
+        right: -20px;
+        width: 65px;
+        height: 95px;
+        animation: fadeOutUp 3s ease-out 0s infinite;
+    }
+
+    &__img4 {
+        position: absolute;
+        background-image: url('images/yellow_balloon.png');
+        background-repeat: no-repeat;
+        top: 20%;
+        left: 5px;
+        width: 65px;
+        height: 95px;
+        animation: fadeOutUp 3s ease-out 0s infinite;
+    }
+
+    &__img5 {
+        position: absolute;
+        background-image: url('images/blue_balloon.png');
+        background-repeat: no-repeat;
+        top: 20%;
+        right: -20px;
+        width: 65px;
+        height: 95px;
+        animation: fadeOutUp 2s ease-out 0s infinite;
+    }
+
+    &__img6 {
+        position: absolute;
+        background-image: url('images/green_balloon.png');
+        background-repeat: no-repeat;
+        top: 20%;
+        left: 5px;
+        width: 65px;
+        height: 95px;
+        animation: fadeOutUp 2s ease-out 0s infinite;
+    }
 }

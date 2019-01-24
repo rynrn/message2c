@@ -15,11 +15,16 @@ class BirthDay extends Component {
 			</Helmet>
 			<div className="birth-day__image">
 				<div className="birth-day__image-animation"></div>
+				<div className="birth-day__img3"></div>
+				<div className="birth-day__img4"></div>
+				<div className="birth-day__img5"></div>
+				<div className="birth-day__img6"></div>
 			</div>
 			<div>
 				<div className="birth-day__wrap-images">
 					<div className="birth-day__img1"></div>
 					<div className="birth-day__img2"></div>
+					
 				</div>
 
 				<h1 className="birth-day__title">יום הולדת שמח</h1>
