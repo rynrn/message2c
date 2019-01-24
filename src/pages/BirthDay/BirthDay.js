@@ -17,7 +17,7 @@ class BirthDay extends Component {
 				<div className="birth-day__image-animation"></div>
 				<div className="birth-day__img3"></div>
 				<div className="birth-day__img4"></div>
-				<div className="birth-day__img5"></div>לא
+				<div className="birth-day__img5"></div>
 				<div className="birth-day__img6"></div>
 			</div>
 			<div>
