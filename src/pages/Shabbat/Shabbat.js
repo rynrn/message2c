@@ -32,7 +32,7 @@ class Shabbat extends Component {
 					<div className="shabbat__img4"></div>
 				</div>
 			</div>
-			<NameGenerate whatsappMessage="כנס, מקדיש לך ברכת שבת שלום" buttonStyle="CP3"/>
+			<NameGenerate whatsappMessage="מקדיש לך ברכת שבת שלום" buttonStyle="CP3"/>
 		</div>
     );
   }
