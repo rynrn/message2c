@@ -36,7 +36,7 @@ class ShareButton extends Component {
 			origin = window.location.origin;
 			pathname = window.location.pathname;
 		}
-		return `${this.props.whatsappMessage}
+		return `${this.props.whatsappMessage.replace('{NAME}', name)}
 			👇👇👇
 			${origin + pathname}/?n=${encodeURIComponent(name)}
 			`
