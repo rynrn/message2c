@@ -3,10 +3,11 @@
 .form__field {
   width: calc(100% - 100px);
   background: #fff;
-  color: #a3a3a3;
+  color: #656565;
   font: inherit;
   -webkit-box-shadow: 0 6px 19px 3px rgba(0,0,0,.4);
   box-shadow: 0 6px 19px 3px rgba(0,0,0,.4);
+  border: 1px solid #dedede;
   border: 0;
   outline: 0;
   padding: 22px 18px;
