@@ -33,7 +33,7 @@ class ShareButton extends Component {
 		if (typeof(window) !== 'undefined') {
 			return `${this.props.whatsappMessage.replace('{NAME}', `*${name}*`)}
 			👇👇👇
-			${SITE_NAME}/${window.location.pathname}?n=${encodeURIComponent(name)}
+			${SITE_NAME}${window.location.pathname}?n=${encodeURIComponent(name)}
 			`
 		}
   }
