@@ -1,6 +1,8 @@
 @import '../../variables.scss';
 
 .valentines-day {
+    position: relative;
+    z-index: 1;
     direction: rtl;
     font-family: 'Varela Round';
 
