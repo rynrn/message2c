@@ -29,17 +29,12 @@ class BirthDay extends Component {
 
 				<h1 className="birth-day__title">יום הולדת שמח</h1>
 				<p className="birth-day__text">
-				יום הולדת הגיע, זמן לברכה
-				זמן לחבק חידושים בשמחה
-				לסמוך שדברים יזרמו בבטחה
-				שהטוב יפלס דרכו הנוחה
-				יום הולדת הגיע, ואיתו עוד שנה
-				שנה מלאה, עשירה, מהנה
-				יום הולדת הגיע, זמן להתחלה משנה
-				והמשך דרך טובה שכולה מתנה
+					רציתי לאחל לך שפע של איחולים וברכות,
+					מזל טוב, בריאות, אושר, הצלחה ומלא אהבה!
+					<br/><br/>
+					מי ייתן וכל חלומותך יתגשמו וקרן אור תמיד תאיר עליך
 					<br/>
-					<br/>
-					שנחגוג יחד עד 120!
+					ושנחגוג יחד עד 120!
 				</p>
 				<Name emoji="🎊🎉"/>
 				<div className="birth-day__wrap-images">

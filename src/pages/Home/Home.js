@@ -32,10 +32,13 @@ const pages = [
 const Home = () => (
     <div>
         <Helmet>
-          <title>{SITE_NAME}</title>
-          <meta name="description" content={SITE_NAME} />
+            <title>{`${SITE_NAME} | הקדשת ברכות ואיחולים`}</title>
+            <meta property="og:title" content={`${SITE_NAME} | הקדשת ברכות ואיחולים`} />
+            <meta name="description" content="ברכות והקדשות לאנשים שחשובים לנו. ברכות ליום הולדת, ברכת שבת שלום ועוד שפע של איחולים" />
+            <meta name="keywords" content="ברכות, איחולים, ברכות יום הולדת, ברכות ליום האהבה, ברכות לשבת שלום, הקדשת שיר למישהו שאוהבים" />
+            <meta property="og:image" content="/images/cards/BirthDay-display.jpg" />
         </Helmet>
-        <Header title="הקדשת ברכות" subtitle="ברכות והקדשות לאנשים שחשובים לנו"/>
+        <Header title="הקדשת ברכות ואיחולים" subtitle="ברכות והקדשות לאנשים שחשובים לנו. ברכות ליום הולדת, ברכת שבת שלום ועוד שפע של איחולים"/>
         <div className="regular-page">
             <div className="regular-page__wrap-content">
                 {pages.map((pages, i) => (
