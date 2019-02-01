@@ -8,7 +8,8 @@ import {
     HaimShely,
     Policy,
     Disclaimer,
-    Home
+    Home,
+    Articles
 } from './pages';
 
 export default [
@@ -60,6 +61,11 @@ export default [
     {
         path: '/BirthDay',
         component: BirthDay,
+        exact: true,
+    },
+      {
+        path: '/Articles',
+        component: Articles,
         exact: true,
     }
 ];
