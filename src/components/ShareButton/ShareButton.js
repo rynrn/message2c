@@ -32,7 +32,9 @@ class ShareButton extends Component {
   getMessage(name) {
 		if (typeof(window) !== 'undefined') {
 			return `${this.props.whatsappMessage.replace('{NAME}', `*${name}*`)}
+			
 			👇👇👇
+			
 			${SITE_NAME}${window.location.pathname}?n=${encodeURIComponent(name)}
 			`
 		}
