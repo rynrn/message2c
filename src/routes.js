@@ -8,7 +8,8 @@ import {
     HaimShely,
     Policy,
     Disclaimer,
-    Home
+    Home,
+    MomDay
 } from './pages';
 
 export default [
@@ -60,6 +61,11 @@ export default [
     {
         path: '/BirthDay',
         component: BirthDay,
+        exact: true,
+    },
+    {
+        path: '/MomDay',
+        component: MomDay,
         exact: true,
     }
 ];

@@ -8,6 +8,7 @@ import Disclaimer from './Disclaimer/Disclaimer';
 import Home from './Home/Home';
 import ValentinesDay from './ValentinesDay/ValentinesDay';
 import BirthDay from './BirthDay/BirthDay';
+import MomDay from './MomDay/MomDay';
 
 export {
     BirthDay,
@@ -19,5 +20,6 @@ export {
     HaimShely,
     Policy,
     Disclaimer,
-    Home
+    Home,
+    MomDay
 };

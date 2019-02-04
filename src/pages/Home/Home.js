@@ -26,6 +26,12 @@ const pages = [
         title: 'ברכות ואיחולים ליום הולדת',
         text: 'כנס להקדיש',
         link: '/BirthDay'
+    },
+    {
+        src: '/images/cards/MomDay-display.jpg',
+        title: 'יום האם שמח',
+        text: 'כנס להקדיש',
+        link: '/MomDay'
     }
 ];
 
