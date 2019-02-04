@@ -1,0 +1,92 @@
+@import '../../variables.scss';
+
+.mom-day {
+    position: relative;
+    z-index: 1;
+    direction: rtl;
+    font-family: 'Varela Round';
+
+    .blessing-name {
+        color: #ed6b8d;
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    &__iframe {
+        width: 100%;
+        height: 100vw;
+        z-index: 2;
+        
+        @include xl() {
+            width: 768px;
+            height: 768px;
+            margin: 0 auto;
+            display: block;
+        }
+    }
+
+    &__title {
+        text-align: center;
+        color: #ed6b8d;
+    }
+
+    &__hashtag {
+        text-align: center;
+        color: #ed6b8d;
+        font-size: 25px;
+    }
+
+    &__wrap-images {
+        position: relative;
+        width: 50%;
+        height: 80px;
+        padding: 20px;
+        margin: 0 auto;
+    }
+
+    &__img1 {
+        position: absolute;
+        background-image: url('images/img1.jpg');
+        background-size: cover;
+        top: 20%;
+        right: 0;
+        width: 80px;
+        height: 95px;
+        animation: tada 2s ease-out 0s infinite;
+    }
+
+    &__img2 {
+        position: absolute;
+        background-image: url('images/img2.jpg');
+        background-size: cover;
+        top: 35%;
+        left: 0;
+        width: 65px;
+        height: 77px;
+        background-position-x: 65px;
+        animation: tada 2s ease-out 0s infinite;
+    }
+
+    &__img3 {
+        position: absolute;
+        background-image: url('images/img3.jpg');
+        background-size: cover;
+        top: 20%;
+        right: 0;
+        width: 102px;
+        height: 95px;
+        animation: tada 2s ease-out 0s infinite;
+    }
+
+    &__img4 {
+        position: absolute;
+        background-image: url('images/img4.jpg');
+        background-size: cover;
+        top: 35%;
+        left: 0;
+        width: 65px;
+        height: 80px;
+        background-position-x: 65px;
+        animation: tada 2s ease-out 0s infinite;
+    }
+}
