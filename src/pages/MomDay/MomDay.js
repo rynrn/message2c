@@ -30,7 +30,9 @@ class MomDay extends Component {
 				</div>
 
 				<h1 className="mom-day__title">יום האם שמח לאמא האחת והיחידה!</h1>
-				<Name/>
+				<div className="mom-day__name">
+					<Name/>
+				</div>
 				<p className="mom-day__hashtag">#זה_היום_שלך</p>
 				<div className="mom-day__wrap-images">
 					<div className="mom-day__img3"></div>

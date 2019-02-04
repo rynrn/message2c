@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { isEmpty } from 'lodash';
-import './Name.css';
+import './Name.scss';
 
 class Name extends Component {
 	constructor (props) {
@@ -21,17 +21,17 @@ class Name extends Component {
 	}
 
   render() {
-		if (isEmpty(this.state.name)) {
-			return null;
-		}
+	if (isEmpty(this.state.name)) {
+		return null;
+	}
 
-		const emojiElement = isEmpty(this.props.emoji) ? '' : <span role="img" aria-label="emoji">{this.props.emoji}</span>;
+	const emojiElement = isEmpty(this.props.emoji) ? '' : <span role="img" aria-label="emoji">{this.props.emoji}</span>;
     return (
-			<div className="blessing-name">
-				{emojiElement}
-				{this.state.name}
-				{emojiElement}
-			</div>
+		<div className="blessing-name">
+			{emojiElement}
+			{this.state.name}
+			{emojiElement}
+		</div>
     );
   }
 }

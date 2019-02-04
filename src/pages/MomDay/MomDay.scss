@@ -6,7 +6,7 @@
     direction: rtl;
     font-family: 'Varela Round';
 
-    .blessing-name {
+    &__name, &__name > div, .blessing-name {
         color: #ed6b8d;
         font-size: 25px;
         font-weight: bold;
