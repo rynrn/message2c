@@ -8,7 +8,14 @@ import Disclaimer from './Disclaimer/Disclaimer';
 import Home from './Home/Home';
 import ValentinesDay from './ValentinesDay/ValentinesDay';
 import BirthDay from './BirthDay/BirthDay';
-import Articles from './Articles/Articles';
+import {
+    Articles,
+    LoveGreeting,
+    HolidayGreeting,
+    BirthdayGreetings,
+    BlessingForPregnancy,
+    ShabbatShalomGreeting
+} from './Articles';
 
 export {
     BirthDay,
@@ -21,5 +28,10 @@ export {
     Policy,
     Disclaimer,
     Home,
-    Articles
+    Articles,
+    LoveGreeting,
+    HolidayGreeting,
+    BirthdayGreetings,
+    BlessingForPregnancy,
+    ShabbatShalomGreeting
 };

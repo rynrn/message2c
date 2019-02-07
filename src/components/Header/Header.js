@@ -1,12 +1,12 @@
 import React from 'react';
 import './Header.scss';
 
-const Header = (props) => (
+const Header = ({ title, subtitle, style = {} }) => (
     <header className="header">
-        <div className="header__wrap-content" style={{ backgroundImage: `url(${props.src})` }}>
+        <div className="header__wrap-content" style={style}>
             <div className="container">
-                <h1 className="header__title">{props.title}</h1>
-                <h2 className="header__subtitle">{props.subtitle}</h2>
+                {title && <h1 className="header__title">{title}</h1>}
+                {subtitle && <h2 className="header__subtitle">{subtitle}</h2>}
             </div>
         </div>
     </header>

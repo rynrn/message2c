@@ -9,7 +9,12 @@ import {
     Policy,
     Disclaimer,
     Home,
-    Articles
+    Articles,
+    LoveGreeting,
+    HolidayGreeting,
+    BirthdayGreetings,
+    BlessingForPregnancy,
+    ShabbatShalomGreeting
 } from './pages';
 
 export default [
@@ -63,9 +68,34 @@ export default [
         component: BirthDay,
         exact: true,
     },
-      {
+    {
         path: '/Articles',
         component: Articles,
+        exact: true,
+    },
+    {
+      path: '/Articles/love-greeting',
+      component: LoveGreeting,
+      exact: true,
+    },
+    {
+      path: '/Articles/holiday-greeting',
+      component: HolidayGreeting,
+      exact: true,
+    },
+    {
+      path: '/Articles/birthday-greetings',
+      component: BirthdayGreetings,
+      exact: true,
+    },
+    {
+        path: '/Articles/shabbat-shalom-greeting',
+        component: ShabbatShalomGreeting,
+        exact: true,
+    },
+    {
+        path: '/Articles/blessing-for-pregnancy',
+        component: BlessingForPregnancy,
         exact: true,
     }
 ];
