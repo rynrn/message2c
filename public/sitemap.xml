@@ -9,38 +9,73 @@
 
 <url>
   <loc>http://message2c.me/</loc>
-  <lastmod>2019-01-11T15:54:04+00:00</lastmod>
+  <lastmod>2019-02-07T21:38:58+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>http://message2c.me/ValentinesDay</loc>
-  <lastmod>2019-01-11T15:54:04+00:00</lastmod>
+  <lastmod>2019-02-07T21:38:58+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://message2c.me/HaimShely</loc>
-  <lastmod>2019-01-25T08:54:04+00:00</lastmod>
+  <lastmod>2019-02-07T21:38:58+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://message2c.me/Shabbat</loc>
-  <lastmod>2019-01-25T08:54:04+00:00</lastmod>
+  <lastmod>2019-02-07T21:38:58+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://message2c.me/BirthDay</loc>
-  <lastmod>2019-01-11T15:54:04+00:00</lastmod>
+  <lastmod>2019-02-07T21:38:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://message2c.me/MomDay</loc>
+  <lastmod>2019-02-07T21:38:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://message2c.me/Articles</loc>
+  <lastmod>2019-02-07T21:38:58+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://message2c.me/Policy</loc>
-  <lastmod>2019-01-11T15:54:04+00:00</lastmod>
+  <lastmod>2019-02-07T21:38:58+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://message2c.me/Disclaimer</loc>
-  <lastmod>2019-01-11T15:54:04+00:00</lastmod>
+  <lastmod>2019-02-07T21:38:58+00:00</lastmod>
   <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://message2c.me/Articles/love-greeting</loc>
+  <lastmod>2019-02-07T21:38:58+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://message2c.me/holiday-greeting</loc>
+  <lastmod>2019-02-07T21:38:58+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://message2c.me/Articles/birthday-greetings</loc>
+  <lastmod>2019-02-07T21:38:58+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://message2c.me/Articles/shabbat-shalom-greeting</loc>
+  <lastmod>2019-02-07T21:38:58+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://message2c.me/Articles/blessing-for-pregnancy</loc>
+  <lastmod>2019-02-07T21:38:58+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 
 
