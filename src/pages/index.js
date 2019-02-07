@@ -8,6 +8,7 @@ import Disclaimer from './Disclaimer/Disclaimer';
 import Home from './Home/Home';
 import ValentinesDay from './ValentinesDay/ValentinesDay';
 import BirthDay from './BirthDay/BirthDay';
+import MomDay from './MomDay/MomDay';
 import {
     Articles,
     LoveGreeting,
@@ -28,6 +29,7 @@ export {
     Policy,
     Disclaimer,
     Home,
+    MomDay,
     Articles,
     LoveGreeting,
     HolidayGreeting,

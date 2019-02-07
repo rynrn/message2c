@@ -9,6 +9,7 @@ import {
     Policy,
     Disclaimer,
     Home,
+    MomDay,
     Articles,
     LoveGreeting,
     HolidayGreeting,
@@ -69,6 +70,11 @@ export default [
         exact: true,
     },
     {
+        path: '/MomDay',
+        component: MomDay,
+        exact: true,
+    },
+    {
         path: '/Articles',
         component: Articles,
         exact: true,
@@ -97,5 +103,5 @@ export default [
         path: '/Articles/blessing-for-pregnancy',
         component: BlessingForPregnancy,
         exact: true,
-    }
+     }
 ];
