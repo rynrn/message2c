@@ -15,11 +15,12 @@
     &:hover {
         -webkit-transition: 300ms all;
         transition: 300ms all;
-        color: #444444;
+        color: #ffffff;
+        background: #2f2b35;
         .card__button {
-            border-color: #2f2b35;
-            color: #ffffff;
-            background: #2f2b35;
+            border-color: #a7a7a7;
+            color: #2f2b35;
+            background: #ffffff;
         }
     }
 

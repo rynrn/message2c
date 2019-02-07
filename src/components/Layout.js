@@ -5,6 +5,7 @@ import { Footer } from "./";
 
 const footerPages = [
     { text: 'לעוד הקדשות', href: '/' },
+    { text: 'מאמרים', href: '/Articles' },
     { text: 'Policy', href: '/Policy' },
     { text: 'Disclaimer', href: '/Disclaimer' }
 ];

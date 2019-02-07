@@ -9,6 +9,14 @@ import Home from './Home/Home';
 import ValentinesDay from './ValentinesDay/ValentinesDay';
 import BirthDay from './BirthDay/BirthDay';
 import MomDay from './MomDay/MomDay';
+import {
+    Articles,
+    LoveGreeting,
+    HolidayGreeting,
+    BirthdayGreetings,
+    BlessingForPregnancy,
+    ShabbatShalomGreeting
+} from './Articles';
 
 export {
     BirthDay,
@@ -21,5 +29,11 @@ export {
     Policy,
     Disclaimer,
     Home,
-    MomDay
+    MomDay,
+    Articles,
+    LoveGreeting,
+    HolidayGreeting,
+    BirthdayGreetings,
+    BlessingForPregnancy,
+    ShabbatShalomGreeting
 };
