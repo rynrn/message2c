@@ -28,7 +28,7 @@ class Shabbat extends Component {
 					<div className="shabbat__img4"></div>
 				</div>
 			</div>
-			<NameGenerate whatsappMessage="שבת שלום במיוחד בשבילך מ{NAME}" buttonStyle="CP3"/>
+			<NameGenerate whatsappMessage="שבת שלום במיוחד בשבילך מ{NAME}" buttonStyle="CP2"/>
 		</div>
     );
   }
