@@ -18,6 +18,12 @@
     direction: rtl;
     font-family: 'Varela Round';
 
+    &__name, &__name > div, .blessing-name {
+        color: #08cdb9;
+        font-size: 25px;
+        font-weight: bold;
+    }
+
     &__title {
         text-align: center;
         color: #08cdb9;
