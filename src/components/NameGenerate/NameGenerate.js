@@ -20,7 +20,7 @@ class NameGenerate extends Component {
 	e.preventDefault();
 	const name = trim(this.textInput.current.textInput.current.value);
 	if(isEmpty(name)) {
-		alert('הקלד שם');
+		alert('הקלד את שלך!');
 	}
 	else {
 		event('enter_name', 'engagement', 'method', 'button_click');

@@ -3,26 +3,7 @@ import { Helmet } from 'react-helmet';
 import '../RegularPage.scss';
 import { Header, Card } from '../../components';
 import { SITE_NAME } from '../../constants/app';
-
-
-const pages = [
-    {
-        title: 'ברכות האהבה',
-        link: '/Articles/love-greeting'
-    }, {
-        title: 'ברכות לחג',
-        link: '/holiday-greeting'
-    }, {
-        title: 'ברכות ליום הולדת',
-        link: '/Articles/birthday-greetings'
-    }, {
-        title: 'ברכת שבת שלום',
-        link: '/Articles/shabbat-shalom-greeting'
-    }, {
-        title: 'ברכה להריון ולידה',
-        link: '/Articles/blessing-for-pregnancy'
-    }
-];
+import { articles } from '../../constants/pages';
 
 const Articles = () => (
     <div>
@@ -36,8 +17,8 @@ const Articles = () => (
                 title="מאמרים וברכות"/>
         <div className="regular-page">
            <div className="regular-page__wrap-content container text-right">
-            {pages.map((pages, i) => (
-                <Card key={i} {...pages}/>
+            {articles.map((article, i) => (
+                <Card key={i} {...article}/>
             ))}
             </div>
         </div>

@@ -6,6 +6,8 @@ import ShareButton from './ShareButton/ShareButton';
 import Footer from './Footer/Footer';
 import Header from './Header/Header';
 import Card from './Card/Card';
+import DrawerMenu from './Drawer/Drawer';
+
 export {
 	Input,
 	Name,
@@ -14,5 +16,6 @@ export {
 	ShareButton,
 	Footer,
 	Header,
-	Card
+	Card,
+	DrawerMenu
 };

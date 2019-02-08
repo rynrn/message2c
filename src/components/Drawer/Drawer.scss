@@ -1,0 +1,18 @@
+
+
+.drawer {
+    direction: rtl;
+
+    .ant-menu-item {
+        padding-right: 24px;
+    }
+
+    .ant-menu-item .anticon, .ant-menu-submenu-title .anticon {
+        margin-left: 10px;
+        margin-right: 0;
+    }
+    .ant-menu-submenu-vertical > .ant-menu-submenu-title .ant-menu-submenu-arrow, .ant-menu-submenu-vertical-left > .ant-menu-submenu-title .ant-menu-submenu-arrow, .ant-menu-submenu-vertical-right > .ant-menu-submenu-title .ant-menu-submenu-arrow, .ant-menu-submenu-inline > .ant-menu-submenu-title .ant-menu-submenu-arrow {
+        left: 16px;
+        right: auto;
+    }
+}
