@@ -7,12 +7,15 @@ import { SITE_NAME } from '../../constants/app';
 class Policy extends Component {
     constructor() {
         super();
+        this.toggle = this.toggle.bind(this);
         this.state = {
             isDrawerOpen: false
         };
     }
 
-    toggle = () => this.setState({ isDrawerOpen: !this.state.isDrawerOpen })
+    toggle() {
+        this.setState({ isDrawerOpen: !this.state.isDrawerOpen });
+    }
 
     render() {
         return(
