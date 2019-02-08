@@ -16,8 +16,9 @@ articles.forEach((page, i) => {
 })
 
 const findSelectionLink = () => {
-    if (!window) return;
-    return pageMapper[window.location.pathname];
+    if (typeof(window) !== 'undefined') {
+        return pageMapper[window.location.pathname];
+    }
 };
 
 const DrawerMenu = ({ isDrawerOpen }) => (
