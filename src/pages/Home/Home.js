@@ -3,7 +3,7 @@ import { Helmet } from 'react-helmet';
 import '../RegularPage.scss';
 import { Header, Card, DrawerMenu } from '../../components';
 import { SITE_NAME } from '../../constants/app';
-import { homeCards as pages } from '../../constants/pages';
+import { homeCards as pages, articles } from '../../constants/pages';
 
 class Home extends Component {
     constructor() {
@@ -36,6 +36,12 @@ class Home extends Component {
                     <div className="regular-page__wrap-content">
                         {pages.map((pages, i) => (
                             <Card key={i} {...pages}/>
+                        ))}
+                    </div>
+
+                    <div className="regular-page__wrap-content text-right">
+                        {articles.map((article, i) => (
+                            <Card key={i} {...article}/>
                         ))}
                     </div>
 
